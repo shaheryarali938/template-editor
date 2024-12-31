@@ -57,9 +57,9 @@ const Status = observer(({ project }) => {
           {project.cloudEnabled && project.status === 'saved' && (
             <>
               You data is saved with{' '}
-              <a href="https://puter.com" target="_blank">
+              {/* <a href="https://puter.com" target="_blank">
                 Puter.com
-              </a>
+              </a> */}
             </>
           )}
           {project.cloudEnabled &&
@@ -69,9 +69,9 @@ const Status = observer(({ project }) => {
       }
       interactionKind="hover"
     >
-      <div style={{ padding: '0 5px' }}>
+      {/* <div style={{ padding: '0 5px' }}>
         <Icon className="bp5-icon" style={{ fontSize: '25px', opacity: 0.8 }} />
-      </div>
+      </div> */}
     </Popover>
   );
 });
@@ -103,7 +103,7 @@ export default observer(({ store }) => {
         <Navbar.Group align={Alignment.RIGHT}>
           <Status project={project} />
 
-          <AnchorButton
+          {/* <AnchorButton
             href="https://polotno.com"
             target="_blank"
             minimal
@@ -112,24 +112,24 @@ export default observer(({ store }) => {
             }
           >
             API
-          </AnchorButton>
+          </AnchorButton> */}
 
-          <AnchorButton
+          {/* <AnchorButton
             minimal
             href="https://github.com/lavrton/polotno-studio"
             target="_blank"
             icon={
               <FaGithub className="bp5-icon" style={{ fontSize: '20px' }} />
             }
-          ></AnchorButton>
-          <AnchorButton
+          ></AnchorButton> */}
+          {/* <AnchorButton
             minimal
             href="https://twitter.com/lavrton"
             target="_blank"
             icon={
               <FaTwitter className="bp5-icon" style={{ fontSize: '20px' }} />
             }
-          ></AnchorButton>
+          ></AnchorButton> */}
           <NavbarDivider />
           <DownloadButton store={store} />
           <UserMenu store={store} project={project} />

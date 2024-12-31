@@ -179,10 +179,10 @@ export const FileMenu = observer(({ store, project }) => {
               GitHub repository
             </a>
             . The repository doesn't have full source.{' '}
-            <strong>Polotno Studio</strong> is powered by{' '}
+            {/* <strong>Polotno Studio</strong> is powered by{' '}
             <a href="https://polotno.com/" target="_blank">
               Polotno SDK project
-            </a>
+            </a> */}
             . All core "canvas editor" functionality are implemented by{' '}
             <strong>polotno</strong> npm package (which is not open source at
             the time of writing this text).

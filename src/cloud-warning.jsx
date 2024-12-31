@@ -17,7 +17,7 @@ export const CloudWarning = observer(() => {
         If you want to have bigger storage and enable cloud saving please sign
         in with puter.com.
       </p> */}
-      <Button
+      {/* <Button
         fill
         intent="success"
         onClick={() => {
@@ -26,7 +26,7 @@ export const CloudWarning = observer(() => {
         icon={<Cloud />}
       >
         Enable cloud storage
-      </Button>
+      </Button> */}
     </div>
   );
 });
