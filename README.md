@@ -1,4 +1,4 @@
-# Polotno Studio
+# Editor Studio
 
 **[Launch the application](https://studio.polotno.com/)**
 

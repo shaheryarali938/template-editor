@@ -9,6 +9,11 @@ export default defineConfig({
     project: "polotno-studio"
   })],
 
+  server: {
+    host: '0.0.0.0', // Allow external access
+    port: 3000, // Use the same port
+  },
+
   build: {
     sourcemap: true
   }
